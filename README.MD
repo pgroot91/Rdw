@@ -51,24 +51,24 @@ Usage
     var_dump($assen);
     echo '</pre>';
 
-    $assen = $brandstofRepository->findOneBy('kenteken', $kentekenNummer);
+    $brandstof = $brandstofRepository->findOneBy('kenteken', $kentekenNummer);
     echo '<pre>';
-    var_dump($assen);
+    var_dump($brandstof);
     echo '</pre>';
 
-    $assen = $carosserieRepository->findOneBy('kenteken', $kentekenNummer);
+    $carosserie = $carosserieRepository->findOneBy('kenteken', $kentekenNummer);
     echo '<pre>';
-    var_dump($assen);
+    var_dump($carosserie);
     echo '</pre>';
 
-    $assen = $carosserieSpecifiekRepository->findOneBy('kenteken', $kentekenNummer);
+    $carosserieSpecifiek = $carosserieSpecifiekRepository->findOneBy('kenteken', $kentekenNummer);
     echo '<pre>';
-    var_dump($assen);
+    var_dump($carosserieSpecifiek);
     echo '</pre>';
 
-    $assen = $voertuigklasseRepository->findOneBy('kenteken', $kentekenNummer);
+    $voertuigklasse = $voertuigklasseRepository->findOneBy('kenteken', $kentekenNummer);
     echo '<pre>';
-    var_dump($assen);
+    var_dump($voertuigklasse);
     echo '</pre>';
     ```
 ## Api
